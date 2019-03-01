@@ -7,7 +7,7 @@ console.log(`\n === Callbacks ===`);
  * In the body of the function return the callback with the two parameters that you created
  */
 function consume(param1, param2, cb) {
-  return console.log(cb(param1, param2));
+  return cb(param1, param2);
 }
 
 /* Step 2: Create several functions to callback with consume();
@@ -16,15 +16,15 @@ function consume(param1, param2, cb) {
  * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
  */
 function add(num1, num2) {
-  return num1 + num2;
+  console.log(num1 + num2);
 }
 
 function multiply(num1, num2) {
-  return num1 * num2;
+  console.log(num1 * num2);
 }
 
 function greeting(firstName, lastName) {
-  return `Hello ${firstName} ${lastName}, nice to meet you!`;
+  console.log(`Hello ${firstName} ${lastName}, nice to meet you!`);
 }
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
