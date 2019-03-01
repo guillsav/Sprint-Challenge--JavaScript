@@ -7,6 +7,7 @@
 */
 
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceious
+console.log(`\n === Objects ===`);
 const tyrannosaurus = {
   diet: 'carnivorous',
   weight: '7000kg',
